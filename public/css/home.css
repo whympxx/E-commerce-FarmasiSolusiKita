@@ -34,6 +34,13 @@
     width: 100%;
 }
 
+/* On small screens the 3D objects float along the bottom edge, so leave room below the buttons */
+@media (max-width: 991.98px) {
+    .hero-section {
+        padding: 3rem 0 11rem;
+    }
+}
+
 .hero-section .scene {
     position: absolute;
     inset: 0;

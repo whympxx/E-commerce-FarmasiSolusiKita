@@ -6,13 +6,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     .order-edit-container {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
         min-height: 100vh;
         padding: 2rem 0;
     }
     
     .modern-header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         border-radius: 20px;
         padding: 2rem;
@@ -54,7 +54,7 @@
     }
     
     .card-header-modern {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         border: none;
         padding: 1.5rem;
@@ -112,8 +112,8 @@
     }
     
     .form-control-modern:focus {
-        border-color: #667eea;
-        box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+        border-color: #1e40af;
+        box-shadow: 0 0 0 0.25rem rgba(30, 64, 175, 0.25);
         background: white;
         transform: translateY(-2px);
     }
@@ -140,12 +140,12 @@
     }
     
     .alert-danger {
-        background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+        background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
         color: #8b0000;
     }
     
     .alert-success {
-        background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+        background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
         color: #2d5016;
     }
     
@@ -156,12 +156,12 @@
     }
     
     .checkbox-modern:checked {
-        background-color: #667eea;
-        border-color: #667eea;
+        background-color: #1e40af;
+        border-color: #1e40af;
     }
     
     .checkbox-modern:focus {
-        box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+        box-shadow: 0 0 0 0.25rem rgba(30, 64, 175, 0.25);
     }
     
     .form-check-label-modern {

@@ -55,12 +55,12 @@ function initializeCharts() {
                 datasets: [{
                     label: 'Pendapatan (Rp)',
                     data: generateSampleData(7),
-                    borderColor: '#667eea',
-                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                    borderColor: '#1e40af',
+                    backgroundColor: 'rgba(30, 64, 175, 0.1)',
                     borderWidth: 3,
                     fill: true,
                     tension: 0.4,
-                    pointBackgroundColor: '#667eea',
+                    pointBackgroundColor: '#1e40af',
                     pointBorderColor: '#fff',
                     pointBorderWidth: 2,
                     pointRadius: 6,
@@ -78,7 +78,7 @@ function initializeCharts() {
                         backgroundColor: 'rgba(0, 0, 0, 0.8)',
                         titleColor: '#fff',
                         bodyColor: '#fff',
-                        borderColor: '#667eea',
+                        borderColor: '#1e40af',
                         borderWidth: 1,
                         cornerRadius: 8,
                         displayColors: false,
@@ -145,11 +145,11 @@ function initializeCharts() {
                 datasets: [{
                     data: [30, 25, 20, 15, 10],
                     backgroundColor: [
-                        '#667eea',
-                        '#764ba2',
-                        '#f093fb',
-                        '#f5576c',
-                        '#4facfe'
+                        '#1e40af',
+                        '#2563eb',
+                        '#059669',
+                        '#d97706',
+                        '#0891b2'
                     ],
                     borderWidth: 0,
                     hoverBorderWidth: 3,
@@ -174,7 +174,7 @@ function initializeCharts() {
                         backgroundColor: 'rgba(0, 0, 0, 0.8)',
                         titleColor: '#fff',
                         bodyColor: '#fff',
-                        borderColor: '#667eea',
+                        borderColor: '#1e40af',
                         borderWidth: 1,
                         cornerRadius: 8,
                         callbacks: {

@@ -391,15 +391,15 @@
 <style>
 /* Additional Custom Styles */
 .bg-gradient-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
 }
 
 .bg-gradient-warning {
-    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
 }
 
 .bg-gradient-info {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
 }
 
 .stat-card {
@@ -433,8 +433,12 @@
     color: white !important;
 }
 
+/* Dark navy, same as the customer dashboard hero and login page */
 .welcome-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background:
+        radial-gradient(circle at 78% 40%, rgba(37, 99, 235, .45), transparent 55%),
+        radial-gradient(circle at 10% 90%, rgba(5, 150, 105, .3), transparent 45%),
+        linear-gradient(135deg, #0f172a 0%, #1e293b 55%, #172554 100%) !important;
     position: relative;
     overflow: hidden;
 }

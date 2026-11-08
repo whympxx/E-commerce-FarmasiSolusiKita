@@ -66,7 +66,7 @@ function initializeTableInteractions() {
         
         // Add hover effects
         row.addEventListener('mouseenter', function() {
-            this.style.backgroundColor = 'rgba(102, 126, 234, 0.05)';
+            this.style.backgroundColor = 'rgba(30, 64, 175, 0.05)';
         });
         
         row.addEventListener('mouseleave', function() {

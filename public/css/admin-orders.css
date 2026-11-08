@@ -1,6 +1,6 @@
 /* Admin Orders Enhanced Styles - Modern Bootstrap Design */
 :root {
-    --admin-primary: #667eea;
+    --admin-primary: #1e40af;
     --admin-primary-dark: #5a67d8;
     --admin-success: #10b981;
     --admin-warning: #f59e0b;
@@ -13,16 +13,16 @@
     --admin-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --admin-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --admin-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-    --admin-gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --admin-gradient-success: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    --admin-gradient-warning: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-    --admin-gradient-danger: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
-    --admin-gradient-info: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    --admin-gradient-primary: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+    --admin-gradient-success: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+    --admin-gradient-warning: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+    --admin-gradient-danger: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+    --admin-gradient-info: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
 }
 
 /* Global Styles */
 body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
@@ -33,7 +33,7 @@ body {
 
 /* Modern Header Styles */
 .modern-gradient {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     position: relative;
     overflow: hidden;
 }
@@ -81,14 +81,14 @@ body {
 
 /* Metric Card */
 .metric-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     color: white;
     border-radius: 20px;
     padding: 2rem;
     text-align: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 15px 35px rgba(30, 64, 175, 0.3);
 }
 
 .metric-card::before {
@@ -134,7 +134,7 @@ body {
 }
 
 .table-modern thead th {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     color: white;
     border: none;
     padding: 1.5rem 1rem;
@@ -168,7 +168,7 @@ body {
     top: 0;
     bottom: 0;
     width: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -178,7 +178,7 @@ body {
 }
 
 .table-modern tbody tr:hover {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(30, 64, 175, 0.05) 0%, rgba(37, 99, 235, 0.05) 100%);
     transform: scale(1.01);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -230,7 +230,7 @@ body {
 }
 
 .btn-modern.btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     color: white;
 }
 
@@ -251,12 +251,12 @@ body {
 
 .btn-modern.btn-outline-primary {
     background: transparent;
-    border: 2px solid #667eea;
-    color: #667eea;
+    border: 2px solid #1e40af;
+    color: #1e40af;
 }
 
 .btn-modern.btn-outline-primary:hover {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     color: white;
     border-color: transparent;
 }
@@ -285,8 +285,8 @@ body {
 }
 
 .form-control-modern:focus {
-    border-color: #667eea;
-    box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+    border-color: #1e40af;
+    box-shadow: 0 0 0 0.25rem rgba(30, 64, 175, 0.25);
     background: white;
     transform: translateY(-2px);
 }
@@ -303,7 +303,7 @@ body {
 
 .form-floating > .form-control-modern:focus ~ label,
 .form-floating > .form-control-modern:not(:placeholder-shown) ~ label {
-    color: #667eea;
+    color: #1e40af;
     font-weight: 600;
 }
 
@@ -319,47 +319,47 @@ body {
 }
 
 .status-pending { 
-    background: linear-gradient(45deg, #ffecd2, #fcb69f); 
+    background: linear-gradient(45deg, #fef3c7, #fde68a); 
     color: #8b4513; 
 }
 
 .status-processing { 
-    background: linear-gradient(45deg, #a8edea, #fed6e3); 
+    background: linear-gradient(45deg, #dbeafe, #bfdbfe); 
     color: #2c5aa0; 
 }
 
 .status-shipped { 
-    background: linear-gradient(45deg, #ffecd2, #fcb69f); 
+    background: linear-gradient(45deg, #fef3c7, #fde68a); 
     color: #8b4513; 
 }
 
 .status-delivered { 
-    background: linear-gradient(45deg, #d299c2, #fef9d7); 
+    background: linear-gradient(45deg, #d1fae5, #a7f3d0); 
     color: #2d5016; 
 }
 
 .status-cancelled { 
-    background: linear-gradient(45deg, #ff9a9e, #fecfef); 
+    background: linear-gradient(45deg, #fee2e2, #fecaca); 
     color: #8b0000; 
 }
 
 .payment-pending { 
-    background: linear-gradient(45deg, #ffecd2, #fcb69f); 
+    background: linear-gradient(45deg, #fef3c7, #fde68a); 
     color: #8b4513; 
 }
 
 .payment-paid { 
-    background: linear-gradient(45deg, #d299c2, #fef9d7); 
+    background: linear-gradient(45deg, #d1fae5, #a7f3d0); 
     color: #2d5016; 
 }
 
 .payment-failed { 
-    background: linear-gradient(45deg, #ff9a9e, #fecfef); 
+    background: linear-gradient(45deg, #fee2e2, #fecaca); 
     color: #8b0000; 
 }
 
 .payment-refunded { 
-    background: linear-gradient(45deg, #a8edea, #fed6e3); 
+    background: linear-gradient(45deg, #dbeafe, #bfdbfe); 
     color: #2c5aa0; 
 }
 
@@ -374,7 +374,7 @@ body {
 }
 
 .table-modern .bg-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%) !important;
 }
 
 .table-modern .bg-success {
@@ -447,8 +447,8 @@ body {
 }
 
 .dropdown-item:hover {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-    color: #667eea;
+    background: linear-gradient(135deg, rgba(30, 64, 175, 0.1) 0%, rgba(37, 99, 235, 0.1) 100%);
+    color: #1e40af;
     transform: translateX(5px);
 }
 
@@ -457,7 +457,7 @@ body {
     border-radius: 12px;
     margin: 0 3px;
     border: none;
-    color: #667eea;
+    color: #1e40af;
     font-weight: 600;
     padding: 0.75rem 1rem;
     transition: all 0.3s ease;
@@ -466,16 +466,16 @@ body {
 }
 
 .pagination-modern .page-link:hover {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 15px rgba(30, 64, 175, 0.3);
 }
 
 .pagination-modern .page-item.active .page-link {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     color: white;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 15px rgba(30, 64, 175, 0.3);
 }
 
 /* Loading Overlay */
@@ -626,7 +626,7 @@ body {
 .btn-modern:focus,
 .form-control-modern:focus,
 .table-modern .btn:focus {
-    outline: 2px solid #667eea;
+    outline: 2px solid #1e40af;
     outline-offset: 2px;
 }
 
@@ -642,10 +642,10 @@ body {
 }
 
 .table-responsive::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     border-radius: 10px;
 }
 
 .table-responsive::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%);
 } 

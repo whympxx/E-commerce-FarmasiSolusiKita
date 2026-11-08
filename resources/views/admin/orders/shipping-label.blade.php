@@ -6,13 +6,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     .shipping-label-container {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
         min-height: 100vh;
         padding: 2rem 0;
     }
     
     .modern-header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         border-radius: 20px;
         padding: 2rem;
@@ -43,7 +43,7 @@
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         overflow: hidden;
         margin-bottom: 2rem;
-        border: 3px solid #667eea;
+        border: 3px solid #1e40af;
     }
     
     .btn-modern {
@@ -80,11 +80,11 @@
     }
     
     .label-header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         padding: 2rem;
         text-align: center;
-        border-bottom: 3px solid #667eea;
+        border-bottom: 3px solid #1e40af;
     }
     
     .label-body {
@@ -96,7 +96,7 @@
         border-radius: 15px;
         padding: 1.5rem;
         margin-bottom: 2rem;
-        border-left: 4px solid #667eea;
+        border-left: 4px solid #1e40af;
         position: relative;
     }
     
@@ -148,7 +148,7 @@
     }
     
     .table-modern thead th {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         border: none;
         padding: 1rem;
@@ -164,7 +164,7 @@
     }
     
     .table-modern tbody tr:hover {
-        background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+        background: linear-gradient(135deg, rgba(30, 64, 175, 0.05) 0%, rgba(37, 99, 235, 0.05) 100%);
     }
     
     .table-modern tbody td {
@@ -186,7 +186,7 @@
         border-radius: 15px;
         padding: 1.5rem;
         margin-bottom: 2rem;
-        border-left: 4px solid #6f42c1;
+        border-left: 4px solid #1e40af;
     }
     
     .barcode-section {
@@ -194,7 +194,7 @@
         border-radius: 15px;
         padding: 2rem;
         text-align: center;
-        border: 2px dashed #667eea;
+        border: 2px dashed #1e40af;
         margin-bottom: 2rem;
     }
     

@@ -6,13 +6,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     .invoice-container {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
         min-height: 100vh;
         padding: 2rem 0;
     }
     
     .modern-header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         border-radius: 20px;
         padding: 2rem;
@@ -79,7 +79,7 @@
     }
     
     .invoice-header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         padding: 2rem;
         text-align: center;
@@ -94,7 +94,7 @@
         border-radius: 15px;
         padding: 1.5rem;
         margin-bottom: 2rem;
-        border-left: 4px solid #667eea;
+        border-left: 4px solid #1e40af;
     }
     
     .invoice-details {
@@ -121,7 +121,7 @@
     }
     
     .table-modern thead th {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         color: white;
         border: none;
         padding: 1rem;
@@ -137,7 +137,7 @@
     }
     
     .table-modern tbody tr:hover {
-        background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+        background: linear-gradient(135deg, rgba(30, 64, 175, 0.05) 0%, rgba(37, 99, 235, 0.05) 100%);
     }
     
     .table-modern tbody td {
@@ -163,20 +163,20 @@
         letter-spacing: 0.5px;
     }
     
-    .status-paid { background: linear-gradient(45deg, #d299c2, #fef9d7); color: #2d5016; }
-    .status-pending { background: linear-gradient(45deg, #ffecd2, #fcb69f); color: #8b4513; }
-    .status-failed { background: linear-gradient(45deg, #ff9a9e, #fecfef); color: #8b0000; }
+    .status-paid { background: linear-gradient(45deg, #d1fae5, #a7f3d0); color: #2d5016; }
+    .status-pending { background: linear-gradient(45deg, #fef3c7, #fde68a); color: #8b4513; }
+    .status-failed { background: linear-gradient(45deg, #fee2e2, #fecaca); color: #8b0000; }
     
-    .status-delivered { background: linear-gradient(45deg, #d299c2, #fef9d7); color: #2d5016; }
-    .status-pending-order { background: linear-gradient(45deg, #ffecd2, #fcb69f); color: #8b4513; }
-    .status-processing { background: linear-gradient(45deg, #a8edea, #fed6e3); color: #2c5aa0; }
+    .status-delivered { background: linear-gradient(45deg, #d1fae5, #a7f3d0); color: #2d5016; }
+    .status-pending-order { background: linear-gradient(45deg, #fef3c7, #fde68a); color: #8b4513; }
+    .status-processing { background: linear-gradient(45deg, #dbeafe, #bfdbfe); color: #2c5aa0; }
     
     .footer-section {
         background: #f8f9fa;
         border-radius: 15px;
         padding: 2rem;
         text-align: center;
-        border-top: 4px solid #667eea;
+        border-top: 4px solid #1e40af;
     }
     
     @media print {

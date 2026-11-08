@@ -9,11 +9,11 @@
 <style>
     /* Modern Design System */
     :root {
-        --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-        --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-        --warning-gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-        --danger-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        --primary-gradient: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+        --secondary-gradient: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+        --success-gradient: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+        --warning-gradient: linear-gradient(135deg, #059669 0%, #10b981 100%);
+        --danger-gradient: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
         --glass-bg: rgba(255, 255, 255, 0.25);
         --glass-border: rgba(255, 255, 255, 0.18);
         --shadow-light: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -260,8 +260,8 @@
     }
     
     .form-control-modern:focus {
-        border-color: #667eea;
-        box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        border-color: #1e40af;
+        box-shadow: 0 0 0 0.2rem rgba(30, 64, 175, 0.25);
         background: white;
     }
     
@@ -283,7 +283,7 @@
         border-radius: 10px;
         margin: 0 2px;
         border: none;
-        color: #667eea;
+        color: #1e40af;
         font-weight: 600;
     }
     
@@ -379,7 +379,7 @@
         padding: 1.7rem 1.2rem;
         margin-bottom: 1.2rem;
         box-shadow: 0 4px 16px rgba(0,0,0,0.07);
-        border-left: 4px solid #667eea;
+        border-left: 4px solid #1e40af;
     }
     .order-card-mobile .badge {
         font-size: 0.95rem;
@@ -516,8 +516,8 @@
     }
     
     .status-select-modern:focus {
-        border-color: #667eea;
-        box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        border-color: #1e40af;
+        box-shadow: 0 0 0 0.2rem rgba(30, 64, 175, 0.25);
     }
     
     /* Action Buttons Enhancement */

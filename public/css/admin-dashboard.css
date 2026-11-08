@@ -1,6 +1,6 @@
 /* Admin Dashboard Styles */
 :root {
-    --admin-primary: #4f46e5;
+    --admin-primary: #1e40af;
     --admin-primary-dark: #3730a3;
     --admin-success: #10b981;
     --admin-warning: #f59e0b;
@@ -12,15 +12,15 @@
     --admin-border: #e2e8f0;
     --admin-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --admin-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    --admin-gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --admin-gradient-success: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    --admin-gradient-warning: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-    --admin-gradient-danger: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    --admin-gradient-primary: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+    --admin-gradient-success: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+    --admin-gradient-warning: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+    --admin-gradient-danger: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
 }
 
 /* Dashboard Container */
 .dashboard-container {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
     min-height: calc(100vh - 80px);
     padding: 2rem 0;
     margin: -1.5rem;

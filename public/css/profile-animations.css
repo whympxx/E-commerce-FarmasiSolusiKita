@@ -1,0 +1,33 @@
+/* Animasi tambahan untuk halaman profile */
+
+.card.animate__animated {
+  /* Smooth fade-in up, override if needed */
+  animation-duration: 0.8s;
+}
+
+.btn.animate__animated {
+  /* Pulse effect for save button */
+  animation-duration: 1.2s;
+}
+
+/* Hover effect pada card */
+.card:hover {
+  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.15) !important;
+  transform: translateY(-4px) scale(1.01);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+/* Modal fadeIn custom (jika ingin lebih halus) */
+.modal.animate__animated.animate__fadeIn {
+  animation-duration: 0.5s;
+}
+
+/* Tombol delete shakeX lebih cepat */
+.btn-danger.animate__shakeX {
+  animation-duration: 0.5s;
+}
+
+/* Success text animasi */
+.text-success.animate__fadeIn {
+  animation-duration: 0.7s;
+} 

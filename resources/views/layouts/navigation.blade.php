@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="{{ route('home') }}">
+            <i class="fas fa-pills me-2"></i>{{ config('app.name') }}
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#appNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="appNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="{{ route('products.index') }}">Produk</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('cart.index') }}">Keranjang</a></li>
+            </ul>
+            @auth
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-user"></i> {{ Auth::user()->name }}
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            @if(Auth::user()->isAdmin())
+                                <li><a class="dropdown-item" href="{{ route('admin.dashboard') }}">Admin Panel</a></li>
+                            @endif
+                            <li><a class="dropdown-item" href="{{ route('dashboard') }}">Dashboard Saya</a></li>
+                            <li><a class="dropdown-item" href="{{ route('orders.index') }}">Pesanan Saya</a></li>
+                            <li><a class="dropdown-item" href="{{ route('profile.show') }}">Profil</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                    <button type="submit" class="dropdown-item">Logout</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            @endauth
+        </div>
+    </div>
+</nav>
